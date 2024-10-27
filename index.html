@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link
       rel="shortcut icon"
-      href="assets/image/logo-page.svg"
+      href="assets/icons/logo-page.svg"
       type="image/x-icon"
     />
-    <link rel="icon" href="assets/image/logo-page.svg" />
-    <link rel="apple-touch-icon" href="assets/image/logo-page.svg" />
+    <link rel="icon" href="assets/icons/logo-page.svg" />
+    <link rel="apple-touch-icon" href="assets/icons/logo-page.svg" />
     <link rel="canonical" href="https://iuricode.com/" />
     <script src="assets/js/svg-inject.min.js"></script>
     <title>Portfolio // Ahmed Rushdy</title>
@@ -27,7 +27,7 @@
     <header>
       <div class="grid-layout">
         <nav>
-          <a href="#" class="loko"><span><</span>AhmedRushdy <span>></span></a href="#">
+          <a href="#" class="loko"><span><</span>Ahmed Alshami <span>></span></a href="#">
           <div class="mobile-menu">
             <div class="line1"></div>
             <div class="line2"></div>
@@ -46,6 +46,17 @@
           </ul>
         </nav>
       </div>
+
+      <!-- The mobile page that will show the links -->
+    <div id="mobilePage" class="mobile-page">
+      <ul class="nav-list">
+        <li><a href="#s-projects">Projects</a></li>
+        <li><a href="#s-skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+   <!-- The mobile page that will show the links -->
+      
     </header>
 
     <main>
@@ -54,27 +65,24 @@
           <div id="home">
             <div id="home-container-text">
               <h1 class="delayMediumReveal">
-                Hi, I'm <span>Ahmed Rushdy</span> – Frontend Web Developer
+                Hi, I'm <span>Ahmed Alshami</span> – MERN stack Developer
               </h1>
               <p class="typewriter">
-                I’m passionate about creating clean, responsive, and engaging
-                user interfaces that deliver seamless web experiences. With a
-                strong foundation in HTML, CSS, JavaScript, and frameworks like
-                Bootstrap, React. Let’s build something amazing together!
+                I am a professional MERN stack developer with expertise in building dynamic, scalable, and performance-driven web applications. Proficient in MongoDB, Express.js, React.js, and Node.js, I have a strong command of both front-end and back-end development, with a focus on delivering responsive user interfaces and efficient server-side logic. I enjoy solving complex technical challenges and am passionate about creating seamless user experiences through modern web development practices.
               </p>
 
               <a
-                href="https://www.linkedin.com/in/ahmed-rushdyy/"
+                href="https://www.linkedin.com/in/ahmed-alshami-77821724b/"
                 rel="noopener"
                 target="_blank"
                 class="delayExtraBigReveal"
               >
-                Download CV
+                Check my Linkedin
               </a>
             </div>
 
             <img
-              src="assets/image/logo.svg"
+              src="assets/icons/logo.svg"
               alt="ìcone iuricode"
               onload="SVGInject(this)"
               id="logo"
@@ -91,19 +99,15 @@
             <div id="creator-photo" class="delayMediumReveal"></div>
             <div>
               <h4 class="delayMediumReveal">Who i am ?</h4>
-              <h2 class="delaySmallReveal">Ahmed Rushdy</h2>
+              <h2 class="delaySmallReveal">Ahmed Alshami</h2>
               <h3 class="delayMediumReveal">
-                Frontend Developer & UI Designer
+                MERN stack developer & Backend developer 
               </h3>
 
               <p class="delayLargeReveal">
-                I’m skilled in HTML, CSS, JavaScript, and frameworks like React  with +2 years of experience,
-                and I’m always eager to learn and implement the latest web
-                technologies. As a young developer, I’m driven by curiosity and
-                innovation, constantly pushing myself to stay ahead of industry
-                trends. I take pride in creating digital experiences that not
-                only look great but are also functional and accessible to
-                everyone.
+                I am a skilled MERN stack developer with expertise in MongoDB, Express.js, React.js, and Node.js, specializing in creating full-stack web applications with a focus on performance, scalability, and user experience. On the front-end, I build responsive, intuitive user interfaces using React.js and manage state with tools like Redux. My back-end experience includes developing robust APIs using Node.js and Express, integrating databases like MongoDB for data storage and retrieval, and optimizing application performance.
+
+With a solid understanding of JavaScript and modern web development frameworks, I also work with TypeScript for type safety and Tailwind CSS for styling. I am adept at collaborating within Agile environments, utilizing Git for version control, and deploying applications to cloud platforms. My goal is to deliver high-quality, maintainable solutions that meet client and project requirements efficiently.
               </p>
             </div>
           </div>
@@ -156,27 +160,14 @@
           <h2 class="delaySmallReveal">Projects <span>.</span></h2>
           <div id="projects">
             <article class="intervalCardReveal teslabank">
-              <h3>InfiniteElegance</h3>
-              <p>a responsive E-Comerce application</p>
+              <h3>Khososy</h3>
+              <p>a responsive E-Learning platform</p>
 
               <a
-                href="https://ahmedrushdyy.github.io/InfiniteElegance/"
+                href="https://lnkd.in/djjC3ZAC"
                 rel="noopener"
                 target="_blank"
                 id="teslabank"
-                >Take a Look
-              </a>
-            </article>
-
-            <article class="intervalCardReveal naped">
-              <h3>Prayer Times</h3>
-              <p>Prayer Times is a responsive application with api calls</p>
-
-              <a
-                href="https://github.com/AhmedRushdyy/Prayer_Times"
-                rel="noopener"
-                target="_blank"
-                id="naped"
                 >Take a Look
               </a>
             </article>
@@ -187,7 +178,7 @@
             </article>
           </div>
           <a
-            href="https://github.com/AhmedRushdyy"
+            href="https://github.com/Elshami203"
             rel="noopener"
             target="_blank"
             class="delayExtraBigReveal"
@@ -200,21 +191,7 @@
         <div class="grid-layout">
           <h2 class="delaySmallReveal">Services <span>.</span></h2>
           <div id="services">
-            <article class="intervalCardReveal">
-              <div>
-                <img
-                  src="assets/icons/icon-design.svg"
-                  width="100px"
-                  height="100px"
-                  alt="ícone layers"
-                />
-              </div>
-              <h3>UI Design</h3>
-              <p>
-                Design the interface so that it is clear, objective and most
-                importantly intuitive for the user.
-              </p>
-            </article>
+            
 
             <article class="intervalCardReveal">
               <div>
@@ -235,16 +212,15 @@
             <article class="intervalCardReveal">
               <div>
                 <img
-                  src="assets/icons/icon-app-design.svg"
+                  src="assets/icons/javascript.svg"
                   width="100px"
                   height="100px"
                   alt="ícone imagem"
                 />
               </div>
-              <h3>Motion</h3>
+              <h3>Backend</h3>
               <p>
-                I create interactions that convey a sense of modernity, in
-                addition to catching the user's attention.
+                I offer professional backend development services focused on building secure, scalable, and high-performance RESTful APIs using Node.js and MongoDB. My expertise in designing and implementing efficient API architectures allows businesses to integrate and interact seamlessly with their front-end applications or third-party services.
               </p>
             </article>
           </div>
@@ -286,7 +262,7 @@
               </article>
               <article class="sass intervalCardReveal">
                 <img
-                  src="assets/icons/sass.svg"
+                  src="assets/icons/react.svg"
                   width="60px"
                   height="60px"
                   alt="ícone do sass"
@@ -294,7 +270,7 @@
               </article>
               <article class="react intervalCardReveal">
                 <img
-                  src="assets/icons/react.svg"
+                  src="assets/icons/typescript.svg"
                   width="60px"
                   height="60px"
                   alt="ícone do react"
@@ -302,7 +278,7 @@
               </article>
               <article class="next intervalCardReveal">
                 <img
-                  src="assets/icons/next.svg"
+                  src="assets/icons/mongo.svg"
                   width="60px"
                   height="60px"
                   alt="ícone do next"
@@ -310,7 +286,7 @@
               </article>
               <article class="styled intervalCardReveal">
                 <img
-                  src="assets/icons/styled-components.svg"
+                  src="assets/icons/nodejs.svg"
                   width="60px"
                   height="60px"
                   alt="ícone do styled"
@@ -327,7 +303,7 @@
 
               <article class="radix intervalCardReveal">
                 <img
-                  src="assets/icons/radix.svg"
+                  src="assets/icons/express.svg"
                   width="60px"
                   height="60px"
                   alt="ícone do radix"
@@ -343,18 +319,9 @@
                 />
               </article>
 
-              <article class="storybook intervalCardReveal">
-                <img
-                  src="assets/icons/storybook.svg"
-                  width="60px"
-                  height="60px"
-                  alt="ícone do storybook"
-                />
-              </article>
-
               <article class="cypress intervalCardReveal">
                 <img
-                  src="assets/icons/cypress.svg"
+                  src="assets/icons/github.svg"
                   width="60px"
                   height="60px"
                   alt="ícone do cypress"
@@ -370,7 +337,7 @@
           <h2 class="delaySmallReveal">Contact <span>.</span></h2>
           <div id="services">
             <article id="contact">
-              <a href="https://github.com/AhmedRushdyy">
+              <a href="https://github.com/Elshami203">
                 <img
                   src="assets/icons/github.svg"
                   width="100px"
@@ -382,7 +349,7 @@
             </article>
 
             <article>
-              <a href="https://www.linkedin.com/in/ahmed-rushdyy/">
+              <a href="https://www.linkedin.com/in/ahmed-alshami-77821724b/">
                 <img
                   src="assets/icons/linkedin.svg"
                   width="100px"
@@ -394,7 +361,7 @@
             </article>
 
             <article>
-              <a href="mailto:ahmedmohamedrushdy0@gmail.com">
+              <a href="mailto:elshamimohamed35@gmail.com">
                 <img
                   src="assets/icons/icon-app-design.svg"
                   width="100px"
@@ -415,7 +382,7 @@
               href="https://www.linkedin.com/in/ahmed-rushdyy/"
               rel="noopener"
               target="_blank"
-              >Ahmed Rushdy
+              >Ahmed Alshami
             </a>
           </p>
 
